@@ -1,0 +1,74 @@
+/*ESTILOS DA PAGINA index.html*/
+.center {
+    text-align: center
+}
+
+.justify {
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-flow: row;         /*row rap = quebra linha para baixo*/
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+    
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: gray;
+    
+}
+
+/* padding do tamanho 30*/
+.p-30 {
+    padding: 30px;
+}
+
+/*border radius para aplicar borda arredondada do tamano x%*/
+.br-50 {
+    border-radius: 50%;
+}
+
+/*largura e alturaa da imagem*/
+.wh-500 {
+    width: 500;
+    height: 500;
+}
+
+.tm-social {
+    width: 35px;
+    height: 35px;
+}
+
+/*margem */
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+/*ESTILOS DA PAGINA contato.html*/
+
+
+/*margem lateral */
+.ml-50 {
+    margin-left: 50px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #808e9b;
+    padding-top: 1em;
+    padding-bottom: 20px;
+    border-top: 5px solid #34e7e4;
+}
